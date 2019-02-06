@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Install npm') {
       steps {
-        sh 'node -v'
+        sh 'ls'
       }
     }
     stage('Test') {
