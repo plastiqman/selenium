@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'node --version'
         sh 'npm --version'
+        sh '/usr/local/bin/npm install'
       }
     }
     stage('Test') {
