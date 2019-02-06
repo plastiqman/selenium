@@ -3,7 +3,7 @@ const { expect } = require('chai');
 
 describe('Check Example', () => {
   const driver = new Builder()
-    .usingServer('http://localhost:49002/wd/hub')
+    .usingServer('http://selenium-hub:4444/wd/hub')
     .forBrowser('chrome')
     .build();
   it('Check Title', async () => {
